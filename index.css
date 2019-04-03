@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+@keyframes img{
+    0%{
+        margin: 0 0 0 -700px;
+    }
+    100%{
+        margin: 0;
+    }
+}
+
+@keyframes txt{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes btn{
+    0%{
+        margin: 0 0 0 -700px;
+    }
+    100%{
+        margin: 0;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(back.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-bar{
+    width: 1253px;
+    height: 50px;
+    padding: 5px;
+    background: rgba(87, 72, 72, 0.9);
+}
+
+.nav-list{
+    display: flex;
+    float: left;
+    list-style: none;
+}
+
+.nav-element{
+    padding: 0 0 0 100px;
+}
+
+.social-media-list{
+    float: right;
+    display: flex;
+    list-style: none;
+}
+
+.nav-element2{
+    padding: 2px 25px 5px 5px;
+}
+
+.nav-element2-r{
+    padding: 2px 0 5px 5px;
+}
+
+a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.main h1{
+    position: absolute;
+    top: 250px;
+    left: 40px;
+    color: whitesmoke;
+    animation: txt 5s;
+}
+
+.main h2{
+    position: absolute;
+    top: 340px;
+    left: 40px;
+    color: whitesmoke;
+    animation: txt 5s;
+}
+
+.button1{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    background: none;
+    border-radius: 4px;
+    color: whitesmoke;
+    width: 150px;
+    height: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+    animation: btn 3s;
+}
+
+.button1:hover{
+    border: 5px solid green;
+    background: green;
+}
+
+.button2{
+    position: absolute;
+    top: 500px;
+    left: 250px;
+    background: none;
+    border-radius: 4px;
+    color: whitesmoke;
+    width: 150px;
+    height: 35px;
+    transition: 0.5s;
+    cursor: pointer;
+    animation: btn 3s;
+}
+
+.button2:hover{
+    border: 5px solid orangered;
+    background: orangered;
+}
+
+.about{
+    position: absolute;
+    top: 700px;
+    width: 1263px;
+    height: 450px;
+    background: rgb(167, 227, 56);
+}
+
+.about-h2{
+    padding-left: 570px;
+    color: whitesmoke;
+    letter-spacing: 4px;
+}
+
+.img{
+    display: block;
+    border-radius: 4px;
+    padding: 50px 0 0 50px;   
+}
+
+/*#img2{
+    margin: 100px 0 0 0;
+    padding: 0;
+}*/
+
+.about-text{
+    float: right;
+    margin: -300px 40px 0 0;
+}
+
+.about-text p{
+    font-size: 20px;
+}
+
+footer{
+    position: absolute;
+    top: 1150px;
+    width: 1263px;
+    height: 20px;
+    background: gray;
+}
+
+footer p{
+    padding: 10px;
+    background: gray;
+}
